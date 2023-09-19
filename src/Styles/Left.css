@@ -1,0 +1,28 @@
+.mainContanier {
+    background-image: linear-gradient(to right, white, rgb(201, 241, 241));
+    height: 95vh;
+    width: 65%;
+    border: 1px solid rgb(201, 241, 241);
+    border-bottom-right-radius: 25px;
+    z-index: 0;
+}
+
+.leftSection {
+    display: grid;
+    grid-template-rows: 200px;
+}
+
+h2 {
+    max-width: 42%;
+}
+
+p {
+    max-width: 70%;
+}
+
+@media only screen and (max-width : 1000px) {
+    .leftSection {
+        display: grid;
+        grid-template-rows: 100px;
+    }
+}
